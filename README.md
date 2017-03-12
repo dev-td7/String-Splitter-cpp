@@ -1,8 +1,10 @@
-# String-Splitter-cpp
+# String Splitter.cpp
 
 We have StringTokenizer class in Java. To provide the same functionality in C++, I have created this class so that strings can be split into substrings provided the Delimiting characters.
 
 Also, we have a twist here. There is a separate option to choose whether or not you want to include spaces in the returned string. Most times, if we demand delimiters to be returned, we have to add additional code to skip spaces and tabs. 
+
+You have to create an object of the class split_s and use. Refer below to get to know more..
 
 # How to use
 
@@ -54,5 +56,5 @@ For example:
     
 It is recommended that you loop on the condition has_more() and then extract strings using next() function.
 
-
+See example.cpp and you may get an idea how to use the class.
 # Report bugs if any :)
