@@ -10,7 +10,9 @@ There are 5 constructors:
 
 1.  split_s(string str,string lim,bool lim_return,bool spaces_return)
     
-    Use this constructor if you specify delimiters and also specify if you want spaces and delimiters.
+    Use this constructor if you specify delimiters and also specify if you want spaces and delimiters. 
+    
+    WARNING: Do not specify spaces and tabs in delimiters IF you are demanding delimiters and dont want spaces/tabs to be returned. In       that case you wont get your spaces/tabs.
     
 2.  split_s(string str,string lim,bool lim_return)
 
