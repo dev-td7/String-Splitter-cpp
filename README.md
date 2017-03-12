@@ -34,19 +34,21 @@ To get splitted strings one by one, use the next() function.
     string next();
 
 For example:
+
     string str = sp.next();
     
-    where 'sp' is the object of this class.
+    //'sp' is the object of this class.
     
 To know whether there are more characters that can be returned, use the has_more() function.
     bool has_more();
     
 For example:
+
     while(sp.has_more()==true){
         //Code
     }
     
-    Here, 'sp' is the object of this class, as in the previous example.
+    //'sp' is the object of this class, as in the previous example.
     
 It is recommended that you loop on the condition has_more() and then extract strings using next() function.
 
