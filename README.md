@@ -26,13 +26,15 @@ There are 5 constructors:
     
 4.  split_s(string str, bool spaces_return)
 
-    Use this constructor if you just want to skip spaces and tabs from the string.
+    Use this constructor if you just want to skip spaces and tabs from the string. The returned string won't contain any tabs and spaces
     
 5.  split_s(string str)
 
     It is not recommended to use this constructor as this limits the functionality of the class. Spaces are returned in this case.
     
 By using one of these constructors, you may initialize the object of this class.
+
+The spaces_return parameter does not limit the string on space and tab character, but just removes it from the string!
 
 To get splitted strings one by one, use the next() function.
     string next();
