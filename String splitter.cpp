@@ -52,7 +52,7 @@ class split_s{
         split_s(string str, bool spaces_return){
             s = str;
             delim = "";
-            delim_return = true;
+            delim_return = " \t";
             sp_ret = spaces_return;
 
             i=0;
@@ -102,15 +102,3 @@ class split_s{
             return more;
         }
 };
-
-//int main(){
-//    string str;
-//    getline(cin,str);
-//
-//    split_s sp(str,"+-",false,false);
-//    while(sp.has_more()){
-//        string x = sp.next();
-//        cout<<x<<endl;
-//    }
-//    cout<<"Program terminates";
-//}
